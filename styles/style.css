@@ -40,11 +40,11 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
+  align-items: center;
   column-gap: 30px;
-  padding: 133px 30px;
+  height: inherit;
+  padding: 0 30px;
 }
-
-/* LEFT BLOCK */
 
 .result {
   padding-block-start: 78px;
