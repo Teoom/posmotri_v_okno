@@ -206,8 +206,7 @@ body {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  display: block;
+  display: flex;
   border: 1px solid #fff;
   block-size: 19px;
   inline-size: 19px;
@@ -216,8 +215,6 @@ body {
 .search-form__label:active > .search-form__pseudo-checkbox::before,
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  position: absolute;
-  inset: 0;
   margin: auto;
   background-color: #fff;
   block-size: 15px;
