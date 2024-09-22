@@ -194,10 +194,11 @@ body {
   display: flex;
   column-gap: 5px;
   cursor: pointer;
+  align-items: center;
 }
 
 .search-form__checkbox-list > .search-form__label:active {
-  box-shadow: none;
+  outline: none;
 }
 
 .search-form__checkbox-list > .search-form__label:hover {
@@ -263,10 +264,10 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__video-card-thumbnail {
   display: block;
-  inline-size: 194px;
-  block-size: 103px;
   object-fit: cover;
   object-position: center;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 .content__video-card-title {
