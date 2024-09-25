@@ -65,34 +65,6 @@ ol {
 .search-form {
   display: flex;
   column-gap: 40px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-body {
-  background: black;
-}
-
-.search-form {
-  display: flex;
-  column-gap: 40px;
   color: white;
   background-color: #1b1919;
 }
@@ -192,9 +164,9 @@ body {
 
 .search-form__checkbox-list > .search-form__label {
   display: flex;
+  align-items: center;
   column-gap: 5px;
   cursor: pointer;
-  align-items: center;
 }
 
 .search-form__checkbox-list > .search-form__label:active {
